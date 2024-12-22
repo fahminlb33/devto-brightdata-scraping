@@ -17,7 +17,7 @@ st.set_page_config(page_title="Bright Data Hackathon")
 
 # --- download NLTK data
 if "app_init" not in st.session_state or not st.session_state["app_init"]:
-    nltk.download(["punkt"])
+    nltk.download(["punkt", "punkt_tab"])
     st.session_state["app_init"] = True
 
 # bootstrap
