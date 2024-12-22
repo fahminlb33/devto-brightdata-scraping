@@ -1,0 +1,9 @@
+babel
+pandas
+plotly
+
+nltk
+scipy
+scikit-learn
+
+streamlit
